@@ -1,0 +1,32 @@
+1 - aaj hm aik cacalucter bnayege , javascript ,css , html ki mddt se  
+2 - html , css hme apne caclucter ko deshine krne me mdd krege 
+3 - our yske login bale part me ham javascript use krege 
+4 - cahiye aab m start krte haui 
+5 - sbse phle aaik main div create kiya , aik head tag liya usme caclucter] ka naam set kiyta 
+6 - resulr ko print krme ke liye aaik input tagg liya usme type text , result naam diya clasas vi result diya value 
+empty karki placeholder set kiya 
+7 - readonly property jiska mtlb hai esme ham overwritten nhi kar skte 
+8 - input ko div me set kiya 
+9 - type use kiya hai ki jo vi value ham de rhe hai vo kis fom me hai 
+10 - name = name hmare input ka naam btata hai 
+11 = class ko naam diya taki css se style kar ske 
+12 id=id hme hmare script se josri hai 
+13 - value = input ki kya value hai btata hai 
+14 - readonly ka mtlb esme ham overwrite nhi kar skte hI 
+15 - phli row me 2 input kiye hai aaik ghmare result ko show krne ke liya 
+16 - dusra input fild ko cler krne ke liye 
+17 type - button hai , 
+18 - value c  function call krne ke liye onClick event hai esme hmane functiuon call kiya clerScreen 
+
+19 - clerescreen function script me - hmne id diya result our uski valuye impty rakhiu hai 
+20 - jab vi ham cler button ko click kre to jiski id result hai bo empty ho jaye 
+
+21 - hmne har aaik row me div ke andr input set kiya 
+22 - live screen naam ka function 
+-- jab vi ham button ko click krter hai to jin button me livescreen naam ka function call hua 
+bo input show hoga jis input ka naam  rtesut hoga bha par 
+
+23 - aaik input jiski value equal sine ki hai 
+24 - usme result.value = evel(result.valuye) function call kiya hai 
+25 - jab vi funcyion call hoga to value res.value me store hoti jayegi our result id bale input me dikhegi
+26 - jese hi = button ka function call hoga - value calculate hoke jis input ki id result hai bha result show ho jay4ega 
