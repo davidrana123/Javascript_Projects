@@ -1,0 +1,43 @@
+sbse phle index.html file ko smjata hu 
+cliye aab suru kre 
+use kiya head tag ko 
+secont haed tage me id ka naam players rakha our id ki help se script ko connect kiya 
+ab aaik table create kiya 
+table me tr tag row create krne ke liye use hoti hai 
+our td tag row me collem create krte hai 
+td tag me id set kiya taki script connect ho skte 
+onclick event liya jo button ko click krne par usme set function work krta hai 
+es trha 3 row create kiya our unke andr collem create kiya 
+tabler tag ko close kiya 
+our script connect kiya 
+
+aab m index.js file ko smjata hu 
+3 variable create kar rakhe hai 
+sign, disp, isko, naam ke 
+sign variable me aaik value "x" caracter  set kar rakha hai 
+disp variable me jo head tage me id dii thi us id se connect kiya 
+isko naam ka aaik variabler defind kiya hai 
+to aab index.html; file me aak function printx naam hai 
+printx function defind kiya 
+index.html me printx function par  alg alg number defind kar rakha hai
+esliye index.js file me printx functio nme aaik argumernt number ke rakha hai 
+isko variable ko number id r number naam ki id se connnect kiya jo index.html me pretek collem me diff id hai 
+condiction set kiya agr isko box khali hai to usme sign vatiable print ho jaye
+next function hai winner 
+winner function se phle checkmove function create kiya checkmovie fuhnction se phle getbox funcyion create kiya
+getbox function collem ki id se connct hai our diffrent number recive krme ke liye aaik no naam ka argument pass kiya hai 
+nest function checkmove hai checkmove function acb value our store krta hai our abc ki real value se compatre krta hai 
+our m me sign ki value store hai
+check krke ki sign ki value checkmove ki real value same hoti hai to 
+print win ka mag show hoga 
+uske baad for loop game ko cler kar dega 
+else uake alaba agr koe vi bracker khali nhi hai to its a tie ka mag show hoga 
+aab printx function me agr impty hai to sign ki value show hogi uske baaad winner function call hoga 
+agr chance ke baad checkSign me sign chage hoga our next peron ki chance hogi our sign change hoga disply 
+hoga sign !!!!!!!!!!!
+
+ab style.css file ko smjata hu 
+cliye start krte hai 
+tb tag collem ko styel kiya 
+table ko style kiya 
+body ko style kiya 
