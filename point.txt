@@ -1,0 +1,9 @@
+js file -
+1-third part weather api 
+2-insde this project a input fild 
+3-when give country our state  name in input filt .
+4-throw api wether details shwo in swon sode 
+
+-in project use fetch method 
+-3 part api - open weather map
+-4 
