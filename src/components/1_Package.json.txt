@@ -1,0 +1,3 @@
+custum comment 
+-jese muje npm run david krna hai to 
+-script -> start replancr kar do naam
