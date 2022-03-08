@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, createContext, useState } from "react";
 import Jsx from "../components/2_Jsx";
 import Input from "../components/3_Get_Input_value";
 import Toggle from "../components/4_Hide_Show";
@@ -15,8 +15,14 @@ import Forword from "../components/17_forwardRef";
 import HOC from "../components/18_HOC";
 import Rou from "../router/route";
 import Sobj from "../components/23_State_obj";
+import Protype from "../components/25_ proptypes";
+import Fragment from "../components/26_Fragment";
+import ContextApi from "../components/24_Context_Api";
+
+export const GlobalInfo = createContext();
 
 let Basics = () => {
+  const [color, setColor] = useState("red");
   let fun = () => {
     alert("i am function props");
   };
@@ -27,25 +33,30 @@ let Basics = () => {
     innerRef.current.focus();
   };
   return (
-    <div>
-      <Jsx />
-      <Input />
-      <Toggle />
-      <Form />
-      <Validation />
-      <Props name="i am name props" myFun={fun} />
-      <Didmount />
-      <UseEffect />
-      <Nested />
-      <Usememo />
-      <Ref />
-      <Hook />
-      <Forword ref={innerRef} />
-      <button onClick={updateInput}>Update InputBox</button>
-      <HOC />
-      <Rou />
-      <Sobj />
-    </div>
+    <GlobalInfo.Provider value={{ appColor: color }}>
+      <div>
+        <Jsx />
+        <Input />
+        <Toggle />
+        <Form />
+        <Validation />
+        <Props name="i am name props" myFun={fun} />
+        <Didmount />
+        <UseEffect />
+        <Nested />
+        <Usememo />
+        <Ref />
+        <Hook />
+        <Forword ref={innerRef} />
+        <button onClick={updateInput}>Update InputBox</button>
+        <HOC />
+        <Rou />
+        <Sobj />
+        <Protype age={23} name={"David"} />
+        <Fragment />
+        <ContextApi />
+      </div>
+    </GlobalInfo.Provider>
   );
 };
 
