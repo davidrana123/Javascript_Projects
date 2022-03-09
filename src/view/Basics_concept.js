@@ -18,6 +18,7 @@ import Sobj from "../components/23_State_obj";
 import Protype from "../components/25_ proptypes";
 import Fragment from "../components/26_Fragment";
 import ContextApi from "../components/24_Context_Api";
+import Reducer from "../components/27_useReduceer";
 
 export const GlobalInfo = createContext();
 
@@ -55,6 +56,7 @@ let Basics = () => {
         <Protype age={23} name={"David"} />
         <Fragment />
         <ContextApi />
+        <Reducer />
       </div>
     </GlobalInfo.Provider>
   );
